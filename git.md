@@ -93,3 +93,33 @@ carpeta/	Ignora carpeta
 - y la cabeza es lo que vemos donde estamos parados
 
 ```
+
+## HOLA GIT
+```bash
+echo "# hello-git" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:...
+git push -u origin main
+```
+
+```bash
+…or create a new repository on the command line
+echo "# GIT2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:zim-31/GIT2.git
+git push -u origin main
+```
+
+```bash
+…or push an existing repository from the command line
+git remote add origin git@github.com:zim-31/GIT2.git
+git branch -M main
+git push -u origin main
+
+```
