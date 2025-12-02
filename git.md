@@ -123,3 +123,13 @@ git branch -M main
 git push -u origin main
 
 ```
+
+- Descargar cambios 
+```bash
+git fetch
+```
+> descarga los cambios en las ramas
+```bash
+git merge origin main
+```
+> trae todos los cambios archivos carpetas etc.
